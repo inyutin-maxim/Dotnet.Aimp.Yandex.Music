@@ -1,0 +1,9 @@
+bin/
+obj/
+/packages/
+/.idea/*
+/Reo.IdentityServer/tempkey.rsa
+/Reo.FileStorage/RootStorage/*
+.vs/
+/*.sln.*
+/**/*.PVS*
