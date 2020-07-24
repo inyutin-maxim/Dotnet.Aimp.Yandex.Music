@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Diagnostics;
 
-namespace Aimp.Yandex.Music
+namespace Aimp.Yandex.Music.Infrastructure
 {
 	/// <summary>
 	/// Методы расширения для работы с кодом

@@ -4,7 +4,7 @@ using System.IO;
 using AIMP.SDK;
 using AIMP.SDK.MessageDispatcher;
 
-namespace Aimp.Yandex.Music
+namespace Aimp.Yandex.Music.Infrastructure
 {
 	/// <inheritdoc />
 	public class AimpTraceListener : TraceListener
