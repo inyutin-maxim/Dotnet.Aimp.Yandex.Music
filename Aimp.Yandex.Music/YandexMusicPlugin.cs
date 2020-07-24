@@ -1,6 +1,7 @@
 ﻿using System.Diagnostics;
 using AIMP.SDK;
 using Aimp.Yandex.Music.Infrastructure;
+using Aimp.Yandex.Music.UI;
 using JetBrains.Annotations;
 
 namespace Aimp.Yandex.Music
@@ -14,7 +15,7 @@ namespace Aimp.Yandex.Music
 	[UsedImplicitly]
 	public class YandexMusicPlugin : AimpPlugin
 	{
-		private const string PluginName = "Aimp.Yandex.Music";
+		public const string PluginName = "Aimp.Yandex.Music";
 
 		private const string PluginVersion = "1.0.0";
 
@@ -29,6 +30,8 @@ namespace Aimp.Yandex.Music
 		{
 			Trace.Listeners.Clear();
 			Trace.Listeners.Add(new AimpTraceListener(Player.Core));
+			var optionsForm = new OptionsFrame(Player);
+			Player.Core.RegisterExtension(optionsForm);
 		}
 
 		/// <inheritdoc />
