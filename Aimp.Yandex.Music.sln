@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aimp.Yandex.Music", "Aimp.Yandex.Music\Aimp.Yandex.Music.csproj", "{A62D8798-FD39-4A94-95F8-37B98D564A82}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aimp.Yandex.Music.UI", "Aimp.Yandex.Music.UI\Aimp.Yandex.Music.UI.csproj", "{F8EA2FA7-B754-4389-9968-03D96E78310E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aimp.Yandex.Music.Core", "Aimp.Yandex.Music.Core\Aimp.Yandex.Music.Core.csproj", "{4E73955A-34B4-44F5-ADD3-388093710B5A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,13 @@ Global
 		{A62D8798-FD39-4A94-95F8-37B98D564A82}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A62D8798-FD39-4A94-95F8-37B98D564A82}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A62D8798-FD39-4A94-95F8-37B98D564A82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8EA2FA7-B754-4389-9968-03D96E78310E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8EA2FA7-B754-4389-9968-03D96E78310E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8EA2FA7-B754-4389-9968-03D96E78310E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8EA2FA7-B754-4389-9968-03D96E78310E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E73955A-34B4-44F5-ADD3-388093710B5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E73955A-34B4-44F5-ADD3-388093710B5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E73955A-34B4-44F5-ADD3-388093710B5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E73955A-34B4-44F5-ADD3-388093710B5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

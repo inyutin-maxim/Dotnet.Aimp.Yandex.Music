@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <UseWPF>true</UseWPF>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Page Update="SettingsForm.xaml">
+      </Page>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Update="SettingsForm.xaml.cs">
+        <DependentUpon>SettingsForm.xaml</DependentUpon>
+      </Compile>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Aimp.Yandex.Music.Core\Aimp.Yandex.Music.Core.csproj" />
+    </ItemGroup>
+
+</Project>

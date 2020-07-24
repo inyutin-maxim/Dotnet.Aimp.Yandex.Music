@@ -2,15 +2,17 @@
 
     <PropertyGroup>
         <TargetFramework>netcoreapp3.1</TargetFramework>
-		<OutputPath>C:\Program Files (x86)\AIMP\Plugins\aimp_yandex_music</OutputPath>
 		<LangVersion>latest</LangVersion>
 		<RepositoryUrl>https://github.com/inyutin-maxim/Dotnet.Aimp.Yandex.Music</RepositoryUrl>
 		<RepositoryType>GIT</RepositoryType>
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="AimpSDK" Version="4.60.2144.1" />
       <PackageReference Include="JetBrains.Annotations" Version="2020.1.0" PrivateAssets="all" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Aimp.Yandex.Music.UI\Aimp.Yandex.Music.UI.csproj" />
     </ItemGroup>
 
 </Project>
