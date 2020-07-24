@@ -1,4 +1,5 @@
-﻿using AIMP.SDK;
+﻿using System.Diagnostics;
+using AIMP.SDK;
 using JetBrains.Annotations;
 
 namespace Aimp.Yandex.Music
@@ -20,9 +21,13 @@ namespace Aimp.Yandex.Music
 
 		private const string PluginAuthor = "inyutin-maxim";
 
+		public const string PluginFileName = "aimp_yandex_music";
+
 		/// <inheritdoc />
 		public override void Initialize()
 		{
+			Trace.Listeners.Clear();
+			Trace.Listeners.Add(new AimpTraceListener(Player.Core));
 		}
 
 		/// <inheritdoc />
