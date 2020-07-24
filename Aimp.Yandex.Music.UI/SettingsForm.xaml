@@ -1,0 +1,15 @@
+﻿<Window x:Class="Aimp.Yandex.Music.UI.SettingsForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:local="clr-namespace:Aimp.Yandex.Music.UI"
+        mc:Ignorable="d"
+        Title="SettingsForm" Height="450" Width="800">
+	<Grid>
+		<TextBox Name="Login"></TextBox>
+		<PasswordBox Name="Password"></PasswordBox>
+		<Button Click="YandexAuthorize"></Button>
+
+	</Grid>
+</Window>
