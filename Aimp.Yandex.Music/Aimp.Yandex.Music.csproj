@@ -1,18 +1,19 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-    <PropertyGroup>
-        <TargetFramework>netcoreapp3.1</TargetFramework>
+	<PropertyGroup>
+		<TargetFramework>net472</TargetFramework>
 		<LangVersion>latest</LangVersion>
 		<RepositoryUrl>https://github.com/inyutin-maxim/Dotnet.Aimp.Yandex.Music</RepositoryUrl>
 		<RepositoryType>GIT</RepositoryType>
-    </PropertyGroup>
+	</PropertyGroup>
 
-    <ItemGroup>
-      <PackageReference Include="JetBrains.Annotations" Version="2020.1.0" PrivateAssets="all" />
-    </ItemGroup>
+	<ItemGroup>
+		<PackageReference Include="JetBrains.Annotations" Version="2020.1.0" PrivateAssets="all" />
+		<PackageReference Include="Microsoft.Xaml" Version="4.0.0.1" />
+	</ItemGroup>
 
-    <ItemGroup>
-      <ProjectReference Include="..\Aimp.Yandex.Music.UI\Aimp.Yandex.Music.UI.csproj" />
-    </ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\Aimp.Yandex.Music.UI\Aimp.Yandex.Music.UI.csproj" />
+	</ItemGroup>
 
 </Project>
